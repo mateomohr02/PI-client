@@ -7,12 +7,12 @@ import { BrowserRouter } from 'react-router-dom';
 
 import { Provider } from "react-redux";
 
-import axios from 'axios';
+import axios from 'axios'; 
 
 import  store  from "./redux/store";
 
 //axios.defaults.baseURL = 'http://localhost:3001'
-axios.defaults.baseURL = 'pi-back-production-2f1f.up.railway.app'
+axios.defaults.baseURL = 'pi-back-production-2f1f.up.railway.app/'
 
 
 ReactDOM.render(
